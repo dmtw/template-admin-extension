@@ -1,25 +1,12 @@
 {
-  "name": "@<%= scope %>/module-api-<%= this.changeCase.lower(moduleName) %>",
-  "description": "<%= description %>",
+  "name": "@colmena/module-admin-<%= this.changeCase.pathCase(moduleName) %>",
   "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
-  "dependencies": {},
-  "colmena": {
-    "module": {
-      "modelSources": [
-        "common/models"
-      ],
-      "models": {
-        "<%= this.changeCase.pascal(moduleName) %>": {
-          "dataSource": "db"
-        },
-        "<%= this.changeCase.pascal(moduleName) %>Item": {
-          "dataSource": "db"
-        }
-      },
-      "sampleData": [
-        "sample-data/sample-data.json"
-      ]
-    }
+  "dependencies": {
+    "@colmena/admin-lb-sdk": "0.0.0",
+    "@colmena/admin-ui": "0.0.0"
   }
 }

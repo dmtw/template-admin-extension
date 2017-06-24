@@ -1,6 +1,0 @@
-{
-  "name": "<%= this.changeCase.pascal(moduleName) %>",
-  "plural": "<%= this.changeCase.pascal(moduleName) %>",
-  "description": "<%= this.changeCase.pascal(moduleName) %>: basic model",
-  "base": "Model"
-}
