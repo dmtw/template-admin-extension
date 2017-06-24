@@ -1,6 +1,6 @@
 {
   "name": "@colmena/template-admin-extension",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Scaffold out a Colmena Admin Extension",
   "publishConfig": {
     "access": "public"
