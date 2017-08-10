@@ -1,5 +1,5 @@
 {
-  "name": "@colmena/module-admin-<%= this.changeCase.pathCase(moduleName) %>",
+  "name": "@<%= scope %>/module-admin-<%= this.changeCase.pathCase(moduleName) %>",
   "version": "0.0.0",
   "publishConfig": {
     "access": "public"
